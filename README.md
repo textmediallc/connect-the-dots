@@ -29,8 +29,13 @@ When you want to create a crosslink, start typing the title of an issue or pull 
 
 ### Activity: Create New Issues
 
+1. Create new repository `duplicate-issues-demo`.
+
+2. Click `Issues` tab and create new issue `Issue 1`:
+
 ![](./images/3.jpg) 
 
+3. Create another new issue `Issue 2`:
 
 ![](./images/4.jpg) 
 
@@ -61,12 +66,9 @@ A SHA is a reference to a specific object. In this case, it's a reference to a c
 2. Click `docs` to navigate into the `/docs` directory
 3. Click `_sidebar.md` to view the file
 4. On the top right side of the file, click **Blame** to see the details of the most recent revision
-5. Click the commit message, `add sidebar to documentation` to see the commit details
-6. Copy the first seven characters of the SHA (the first 7 characters of the 40 character hexadecimal string listed after `commit`)
-7. Comment on issue #2 by adding the SHA from step 6 as a comment text and click on "Comment" button
-8. Wait about 20 seconds then refresh this page for the next step.
+5. Click the commit message, `new bug in _sidebar.md` to see the commit details
 
-
+![](./images/6.jpg)
 
 <summary><h2>Step 3: Fix a broken sidebar</h2></summary>
 
@@ -85,7 +87,7 @@ The pull request is important because it goes beyond knowing when a commit happe
 
 When you're looking at a commit on GitHub, you can see a lot of information. From this view, you can also find a link to the pull request in which the commit was created. We'll use this in the next step.
 
-![screenshot of a view of a commit on GitHub, highlighting the link to the pull request](https://user-images.githubusercontent.com/16547949/67341250-3edbb480-f4fd-11e9-805a-6bce5a8ba2d1.png)
+![screenshot of a view of a commit on GitHub, highlighting the link to the pull request](./images/6.jpg)
 
 ### Activity: Fix a broken sidebar
 
@@ -94,7 +96,7 @@ When you're looking at a commit on GitHub, you can see a lot of information. Fro
 3. Select or create a new branch `fix-sidebar` for this commit and start a pull request. 
 4. Make sure that **main** is selected for **base:** and **fix-sidebar** for **compare:**.
 5. Using the **Assignees** section on the right side, assign yourself to the pull request.
-6. In the PR comment add 'Closes #2' and autolink issue #2.
+6. In the PR comment add 'Closes #1' and autolink issue #1.
 7. Click **Create pull request** and wait about 20 seconds.
 8. Merge this pull request.
 9. Delete the branch 'fix-sidebar'.
