@@ -13,7 +13,7 @@ Have you ever worked in a repository with a lot of history? Perhaps you've had t
 ## How to start this course
 
 1. Open following URL in browser, click **Fork** and open the link in a new tab.
-   `https://github.com/fenago/github-pages`
+   `https://github.com/fenago/connect-the-dots`
 
    ![](./images/1.jpg)
 2. In the new tab, follow the prompts to create a new repository.
@@ -68,7 +68,7 @@ A SHA is a reference to a specific object. In this case, it's a reference to a c
 4. On the top right side of the file, click **Blame** to see the details of the most recent revision
 5. Click the commit message, `new bug in _sidebar.md` to see the commit details
 
-![](./images/6.jpg)
+![](./images/7.jpg)
 
 <summary><h2>Step 3: Fix a broken sidebar</h2></summary>
 
@@ -85,7 +85,7 @@ The pull request is important because it goes beyond knowing when a commit happe
 
 ### Finding a pull request from a commit
 
-When you're looking at a commit on GitHub, you can see a lot of information. From this view, you can also find a link to the pull request in which the commit was created. We'll use this in the next step.
+When you're looking at a commit on GitHub, you can see a lot of information. From this view, you can also find a link to the pull request in which the commit was created.
 
 ![screenshot of a view of a commit on GitHub, highlighting the link to the pull request](./images/6.jpg)
 
